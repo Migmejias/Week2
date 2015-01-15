@@ -13,6 +13,14 @@ var payment = "payment";
 console.log("If tuition is approaching due date an " + alert + " will notify parents" + ".");
 console.log("So they can make a " + payment + " on time" + ".");
 
-// Conditions
+
+//While loops
+var money = 100
+
+while (money > 10) {
+	console.log(payment + " Alert, payment still outstanding.");
+	money--;
+};
+console.log(" No payments due.");
 
 
