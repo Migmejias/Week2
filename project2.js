@@ -16,7 +16,7 @@ console.log("So they can make a " + payment + " on time" + ".");
 //While loops
 var money = 100
 
-while (money > 10) {
+while (money < 0) {
 	console.log(payment + " Alert, payment still outstanding.");
 	money--;
 };
@@ -24,7 +24,7 @@ console.log(" No payments due.");
 
 //for loop
 
-for (var money = 100; money > 10; money--) {
+for (var money = 100; money > 0; money--) {
 	console.log(payment + " Alert, payment still outstanding.");
 };
 
