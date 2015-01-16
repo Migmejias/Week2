@@ -17,16 +17,16 @@ console.log("So they can make a " + payment + " on time" + ".");
 var money = 100
 
 while (money < 0) {
-	console.log(payment + " Alert, payment still outstanding.");
+	console.log(payment + "Alert, payment still outstanding.");
 	money--;
 };
-console.log(" No payments due.");
+console.log("No payments due.");
 
 //for loop
 
-for (var money = 100; money > 0; money--) {
-	console.log(payment + " Alert, payment still outstanding.");
+for (var money = 101; money > 0; money--) {
+	console.log(payment + "Alert, payment still outstanding.");
 };
 
-	console.log(" No payments due.");
+	console.log("No payments due.");
 
