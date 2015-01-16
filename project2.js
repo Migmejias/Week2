@@ -21,7 +21,7 @@ while (money > 0) {
 	money--;
 };
 console.log("No payments due.");
-*/
+
 
 //for loop
 
@@ -29,5 +29,12 @@ for (var money = 1000; money > 0; money--) {
 	console.log(payment + " Alert, payment still outstanding.");
 };
 
-	console.log("Payment still due.");
+console.log("Payment still due.");
+
+var alert = "Must be paid immediatly.";
+	console.log(alert);
+
+
+
+ 
 
